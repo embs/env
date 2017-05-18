@@ -2,6 +2,13 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on
 
+" Highlight current line.
+hi CursorLine cterm=NONE ctermbg=darkgrey guibg=darkred guifg=white
+set cursorline
+
+" Constrain columns.
+set columns=80
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
