@@ -1,0 +1,7 @@
+[user]
+	email = embs@cin.ufpe.br
+	name = embs
+[core]
+	editor = vim
+[push]
+	default = simple
