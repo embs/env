@@ -9,6 +9,10 @@ set cursorline
 " Constrain columns.
 set columns=80
 
+" Center current line.
+" http://vim.wikia.com/wiki/Keep_your_cursor_centered_vertically_on_the_screen
+set scrolloff=999
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
