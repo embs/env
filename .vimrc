@@ -1,13 +1,13 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required
-syntax on
 
 " Highlight current line.
 hi CursorLine cterm=NONE ctermbg=darkgrey guibg=darkred guifg=white
 set cursorline
 
 " Constrain columns.
-set columns=80
+set textwidth=80
+set colorcolumn=+1
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " Center current line.
 " http://vim.wikia.com/wiki/Keep_your_cursor_centered_vertically_on_the_screen
@@ -21,6 +21,11 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'kchmck/vim-coffee-script'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -61,3 +66,5 @@ set number
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
 
+filetype plugin on                  " required
+syntax on
