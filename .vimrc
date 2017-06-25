@@ -13,6 +13,9 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 " http://vim.wikia.com/wiki/Keep_your_cursor_centered_vertically_on_the_screen
 set scrolloff=999
 
+" Ignore files
+set wildignore+=*/target/*
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
