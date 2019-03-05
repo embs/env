@@ -1,3 +1,3 @@
-. .git_aliases
+. ~/.git_aliases
 
 alias xc="xclip -selection c"
