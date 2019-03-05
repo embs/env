@@ -1,0 +1,7 @@
+alias gcm="git checkout master"
+alias gp="git pull"
+alias gruo="git remote update origin"
+alias grpo="git remote prune origin"
+alias gsc="git stash clear"
+alias gsl="git stash list"
+alias gst="git status"
