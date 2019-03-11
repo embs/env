@@ -3,5 +3,6 @@
 	name = embs
 [core]
 	editor = vim
+	excludesfile = ~/.git_ignore
 [push]
 	default = simple
