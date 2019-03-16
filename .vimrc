@@ -15,6 +15,7 @@ set scrolloff=999
 
 " Ignore files
 set wildignore+=*/target/*
+set wildignore+=*/node_modules/*
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
