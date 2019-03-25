@@ -31,6 +31,8 @@ Plugin 'mileszs/ack.vim'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-fugitive'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
