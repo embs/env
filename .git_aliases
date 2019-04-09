@@ -1,6 +1,6 @@
 alias gcm="git checkout master"
 alias gp="git pull"
-alias gruo="git remote update origin"
+alias gruo="git remote update origin -p"
 alias grpo="git remote prune origin"
 alias gs="git status"
 alias gsc="git stash clear"
