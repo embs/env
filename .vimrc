@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+set noswapfile
 
 " Highlight current line.
 hi CursorLine cterm=NONE ctermbg=darkgrey guibg=darkred guifg=white
