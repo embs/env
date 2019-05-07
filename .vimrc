@@ -36,6 +36,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-fugitive'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'slim-template/vim-slim.git'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
