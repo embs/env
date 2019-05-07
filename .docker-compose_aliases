@@ -1,0 +1,6 @@
+alias dctest='docker-compose run web rails test;'
+alias dcsetup='docker-compose run web rake setup;'
+alias dcbash='docker-compose exec web bash'
+alias dcbuild='docker-compose build'
+alias dcup='docker-compose up'
+alias dcrecreate='dcbuild && dcup;'
