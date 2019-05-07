@@ -1,6 +1,6 @@
 [user]
 	email = embs@cin.ufpe.br
-	name = embs
+	name = Matheus Santana
 [core]
 	editor = vim
 	excludesfile = ~/.git_ignore
