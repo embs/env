@@ -1,3 +1,4 @@
+alias dcps='docker-compose ps'
 alias dctest='docker-compose run web rails test;'
 alias dcsetup='docker-compose run web rake setup;'
 alias dcbash='docker-compose exec web bash'
