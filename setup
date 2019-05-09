@@ -2,6 +2,7 @@
 
 ln -s /home/embs/git/embs/env/.bashrc /home/embs/.bashrc
 ln -s /home/embs/git/embs/env/.bash_aliases /home/embs/.bash_aliases
+ln -s /home/embs/git/embs/env/.docker-compose_aliases /home/embs/.docker-compose_aliases
 ln -s /home/embs/git/embs/env/.gemrc /home/embs/.gemrc
 ln -s /home/embs/git/embs/env/.git_aliases /home/embs/.git_aliases
 ln -s /home/embs/git/embs/env/.gitconfig /home/embs/.gitconfig
