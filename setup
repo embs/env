@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+ln -s /home/embs/git/embs/env/.bashrc /home/embs/.bashrc
+ln -s /home/embs/git/embs/env/.bash_aliases /home/embs/.bash_aliases
+ln -s /home/embs/git/embs/env/.gemrc /home/embs/.gemrc
+ln -s /home/embs/git/embs/env/.git_aliases /home/embs/.git_aliases
+ln -s /home/embs/git/embs/env/.gitconfig /home/embs/.gitconfig
+ln -s /home/embs/git/embs/env/.gitignore /home/embs/.gitignore
+ln -s /home/embs/git/embs/env/.tmux.conf /home/embs/.tmux.conf
+ln -s /home/embs/git/embs/env/.vimrc /home/embs/.vimrc
