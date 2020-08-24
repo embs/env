@@ -1,8 +1,10 @@
 [user]
-	email = embs@cin.ufpe.br
+	email = matheus@guava.software
 	name = Matheus Santana
 [core]
 	editor = vim
 	excludesfile = ~/.git_ignore
 [push]
 	default = simple
+[diff]
+	tool = meld
