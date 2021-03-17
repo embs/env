@@ -1,5 +1,6 @@
 alias gcm="git checkout master"
 alias gcd="git checkout develop"
+alias gc-="git checkout -"
 alias gp="git pull"
 alias gruo="git remote update origin -p"
 alias grpo="git remote prune origin"

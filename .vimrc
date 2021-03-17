@@ -39,6 +39,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'slim-template/vim-slim.git'
 Plugin 'rust-lang/rust.vim'
+Plugin 'elixir-editors/vim-elixir'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
