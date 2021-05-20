@@ -1,0 +1,3 @@
+alias rb="bin/rubocop"
+alias rc="bin/rails c"
+alias rs="bin/rspec"

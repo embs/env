@@ -6,7 +6,8 @@ hi CursorLine cterm=NONE ctermbg=darkgrey guibg=darkred guifg=white
 set cursorline
 
 " Constrain columns.
-set textwidth=80
+"set textwidth=80
+set textwidth=120
 set colorcolumn=+1
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
@@ -40,6 +41,10 @@ Plugin 'mxw/vim-jsx'
 Plugin 'slim-template/vim-slim.git'
 Plugin 'rust-lang/rust.vim'
 Plugin 'elixir-editors/vim-elixir'
+"Plugin 'dense-analysis/ale'
+"Plugin 'Yggdroot/indentLine'
+
+let g:ale_fixers = { 'elixir': ['mix_format'] }
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -82,3 +87,5 @@ set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 filetype plugin on                  " required
 syntax on
+
+" let g:indentLine_char_list = ['|', '¦', '┆', '┊']
