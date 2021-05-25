@@ -1,3 +1,5 @@
 alias rb="bin/rubocop"
 alias rc="bin/rails c"
+alias rg="bin/rails g"
+alias rr="bin/rails"
 alias rs="bin/rspec"
