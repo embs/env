@@ -10,3 +10,4 @@ ln -s /home/embs/git/embs/env/.gitconfig /home/embs/.gitconfig
 ln -s /home/embs/git/embs/env/.gitignore /home/embs/.gitignore
 ln -s /home/embs/git/embs/env/.tmux.conf /home/embs/.tmux.conf
 ln -s /home/embs/git/embs/env/.vimrc /home/embs/.vimrc
+ln -s /home/embs/git/embs/env/.github_aliases /home/embs/.github_aliases

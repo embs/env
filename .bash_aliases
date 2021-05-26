@@ -1,4 +1,5 @@
 . ~/.git_aliases
+. ~/.github_aliases
 . ~/.docker-compose_aliases
 . ~/.rails_aliases
 
