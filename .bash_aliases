@@ -2,6 +2,7 @@
 . ~/.github_aliases
 . ~/.docker-compose_aliases
 . ~/.rails_aliases
+. ~/.heroku_aliases
 
 alias xc="xclip -selection c"
 alias grep="grep --color"
