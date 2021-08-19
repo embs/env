@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-ln -s /home/embs/git/embs/env/.bashrc /home/embs/.bashrc
-ln -s /home/embs/git/embs/env/.bash_aliases /home/embs/.bash_aliases
-ln -s /home/embs/git/embs/env/.docker-compose_aliases /home/embs/.docker-compose_aliases
-ln -s /home/embs/git/embs/env/.gemrc /home/embs/.gemrc
-ln -s /home/embs/git/embs/env/.git_aliases /home/embs/.git_aliases
-ln -s /home/embs/git/embs/env/.rails_aliases /home/embs/.rails_aliases
-ln -s /home/embs/git/embs/env/.heroku_aliases /home/embs/.heroku_aliases
-ln -s /home/embs/git/embs/env/.gitconfig /home/embs/.gitconfig
-ln -s /home/embs/git/embs/env/.gitignore /home/embs/.gitignore
-ln -s /home/embs/git/embs/env/.tmux.conf /home/embs/.tmux.conf
-ln -s /home/embs/git/embs/env/.vimrc /home/embs/.vimrc
-ln -s /home/embs/git/embs/env/.github_aliases /home/embs/.github_aliases
+ln -s /home/embs/git/env/.bashrc /home/embs/.bashrc
+ln -s /home/embs/git/env/.bash_aliases /home/embs/.bash_aliases
+ln -s /home/embs/git/env/.docker-compose_aliases /home/embs/.docker-compose_aliases
+ln -s /home/embs/git/env/.gemrc /home/embs/.gemrc
+ln -s /home/embs/git/env/.git_aliases /home/embs/.git_aliases
+ln -s /home/embs/git/env/.rails_aliases /home/embs/.rails_aliases
+ln -s /home/embs/git/env/.heroku_aliases /home/embs/.heroku_aliases
+ln -s /home/embs/git/env/.gitconfig /home/embs/.gitconfig
+ln -s /home/embs/git/env/.gitignore /home/embs/.gitignore
+ln -s /home/embs/git/env/.tmux.conf /home/embs/.tmux.conf
+ln -s /home/embs/git/env/.vimrc /home/embs/.vimrc
+ln -s /home/embs/git/env/.github_aliases /home/embs/.github_aliases
