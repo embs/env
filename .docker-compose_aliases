@@ -1,5 +1,5 @@
 alias dcps='docker-compose ps'
-alias dcps='docker-compose stop'
+alias dcs='docker-compose stop'
 alias dctest='docker-compose run web rails test;'
 alias dcsetup='docker-compose run web rake setup;'
 alias dcbash='docker-compose run web bash'
