@@ -1,5 +1,6 @@
 alias gcm="git checkout master"
 alias gcd="git checkout develop"
+alias gcq="git checkout qa"
 alias gc-="git checkout -"
 alias gce="git checkout feature/express-checkout-mvp"
 alias gd="git diff"
