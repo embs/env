@@ -1,6 +1,6 @@
 alias dcps='docker-compose ps'
 alias dcs='docker-compose stop'
-alias dctest='docker-compose run web rails test;'
+alias dctest='docker-compose run --rm web rails test;'
 alias dcsetup='docker-compose run web rake setup;'
 alias dcbash='docker-compose run web bash'
 alias dcrestart='docker-compose up --scale web=0 web && docker-compose up -d --scale web=1 web'
