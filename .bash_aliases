@@ -6,6 +6,6 @@
 
 alias xc="xclip -selection c"
 alias grep="grep --color"
-alias regrep="grep -rn --exclude-dir={tmp,coverage,log,node_modules,.next,.git,public,build,vendor}"
+alias regrep="grep -rn --exclude-dir={tmp,coverage,log,node_modules,.next,.git,public,build,vendor,webpack}"
 alias whichbyebug="grep -rn byebug app/ lib/ spec/"
 alias venv="vim .env.development.local"
