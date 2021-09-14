@@ -89,3 +89,4 @@ filetype plugin on                  " required
 syntax on
 
 " let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+au BufNewFile,BufRead Jenkinsfile setf groovy
