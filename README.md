@@ -1,3 +1,7 @@
+# Setup
+
+    $ ./setup
+
 # Add a new bash alias file
 
     $ touch .something_aliases
