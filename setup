@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+sudo apt install git vim
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 ln -s /home/embs/git/env/.bashrc /home/embs/.bashrc
 ln -s /home/embs/git/env/.bash_aliases /home/embs/.bash_aliases
 ln -s /home/embs/git/env/.docker-compose_aliases /home/embs/.docker-compose_aliases
