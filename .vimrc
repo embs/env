@@ -31,6 +31,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'derekwyatt/vim-scala'
@@ -90,3 +91,5 @@ syntax on
 
 " let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 au BufNewFile,BufRead Jenkinsfile setf groovy
+
+colorscheme dracula
